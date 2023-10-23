@@ -1,0 +1,79 @@
+body {
+    background-image: url(/public/img/pattern.jpg);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color:rgb(208, 202, 195);
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    
+}   
+
+
+
+#logo {
+    padding-left: 50px;
+}
+
+li {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+nav ul a {
+    display: inline-flexbox;
+    float: left;
+    padding: 30px;
+    color: black;
+}
+
+ul a:hover {
+    color: rgb(230, 109, 34);
+
+}
+a:link {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    background-color: rgb(208, 202, 195);
+    padding: 6vh;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 10px;
+}
+
+section h1 {
+    text-align: center;
+}
+
+footer {
+        padding: 10px;
+        color: white;
+        background-color: black;
+        text-align: center;
+}
+
+article a {
+    color: rgb(27, 25, 25);
+}
+
+article a:hover {
+    color: rgb(230, 109, 34);
+}
+
+.one {
+    border-bottom: 3px solid black;
+}
