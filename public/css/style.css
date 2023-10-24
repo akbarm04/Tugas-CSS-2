@@ -77,3 +77,41 @@ article a:hover {
 .one {
     border-bottom: 3px solid black;
 }
+
+@media (max-width: 768px) {
+    body {
+      background-image: none; /* Hapus gambar latar belakang pada perangkat mobile */
+    }
+  
+    header {
+      flex-direction:row; 
+      text-align: center; /* Pusatkan teks dalam header */
+      padding: 10px; /* Tambahkan sedikit ruang di sekitar header */
+    }
+  
+    #logo {
+      padding-left: 0; /* Hapus padding kiri pada logo */
+    }
+  
+    nav ul {
+      padding: 0; /* Hapus padding dari ul dalam nav */
+    }
+  
+    nav ul a {
+      padding: 10px; /* Tambahkan ruang di sekitar tautan di dalam ul */
+    }
+  
+    section {
+      padding: 4vh; /* Ubah margin dan padding pada section */
+      margin: 0; /* Hapus margin pada section */
+    }
+  
+    section h1 {
+      font-size: 24px; /* Ubah ukuran teks judul di dalam section */
+    }
+  
+    footer {
+      padding: 10px; /* Tambahkan ruang di sekitar teks di dalam footer */
+    }
+  }
+  
